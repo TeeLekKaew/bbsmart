@@ -404,8 +404,11 @@
                 "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
-                "IsTempWork": "N",
-                "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก"
+                "IsTempWork": "Y",
+                "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก",
+                "PlanDateList":[
+                    {"PlanDateTo":"2017-07-04T18:01:01","PlanDateEnd":"2017-07-05T18:01:01"}
+                ]
             },
             {
                 "TaskINX": 2,
@@ -422,8 +425,9 @@
                 "WorkActionNote": "",
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
-                "IsTempWork": "Y",
-                "Remark": ""
+                "IsTempWork": "N",
+                "Remark": "",
+                "PlanDateList":[]
             },
             {
                 "TaskINX": 3,
@@ -441,7 +445,8 @@
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
                 "IsTempWork": "N",
-                "Remark": ""
+                "Remark": "",
+                "PlanDateList":[]
             }
         ]
     }],
