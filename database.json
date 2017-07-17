@@ -519,14 +519,43 @@
     "WorkActionList": [{
         "INX": 1,
         "ID": "WIRE_OVER",
-        "Name": "ลากคร่อม"
+        "Name": "ลากคร่อม",
+        "Template":[
+            {
+                "C":"Enclosure",
+                "F":"Fiber",
+                "C":"Enclosure"
+            }
+        ]
+    },
+    {
+        "INX": 1,
+        "ID": "LOOP_SPLICE",
+        "Name": "ปลด Loop + Splice",
+        "Template":[
+            {
+                "L":"Loop",
+                "C":"Enclosure",
+                "L":"Loop"
+            }
+        ]
     }, {
         "INX": 4,
         "ID": "CORE_OP",
-        "Name": "โยก Core"
+        "Name": "โยก Core",
+        "Template":[
+            {
+                "S":"Site"
+            }
+        ]
     }, {
         "INX": 6,
         "ID": "PLAN_NEXTFIX",
-        "Name": "วางแผนกลับมาแก้ไข"
+        "Name": "วางแผนกลับมาแก้ไข",
+        "Template":[
+            {
+                "FL":"Fiber Loss"
+            }
+        ]
     }]
 }
