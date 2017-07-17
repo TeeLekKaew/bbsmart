@@ -522,9 +522,18 @@
         "Name": "ลากคร่อม",
         "Template":[
             {
-                "C":"Enclosure",
-                "F":"Fiber",
-                "C":"Enclosure"
+                "INX":1,
+                "ID":"C",
+                "Name":"Enclosure"
+            },
+                        {
+                "INX":2,
+                "ID":"F",
+                "Name":"Fiber"
+            },            {
+                "INX":1,
+                "ID":"C",
+                "Name":"Enclosure"
             }
         ]
     },
@@ -534,9 +543,18 @@
         "Name": "ปลด Loop + Splice",
         "Template":[
             {
-                "L":"Loop",
-                "C":"Enclosure",
-                "L":"Loop"
+                "INX":3,
+                "ID":"L",
+                "Name":"Loop"
+            },
+                        {
+                "INX":1,
+                "ID":"C",
+                "Name":"Enclosure"
+            },            {
+                "INX":3,
+                "ID":"L",
+                "Name":"Loop"
             }
         ]
     }, {
@@ -545,7 +563,9 @@
         "Name": "โยก Core",
         "Template":[
             {
-                "S":"Site"
+                "INX":4,
+                "ID":"S",
+                "Name":"Site"
             }
         ]
     }, {
@@ -554,7 +574,9 @@
         "Name": "วางแผนกลับมาแก้ไข",
         "Template":[
             {
-                "FL":"Fiber Loss"
+                "INX":4,
+                "ID":"FL",
+                "Name":"Fiber Loss"
             }
         ]
     }]

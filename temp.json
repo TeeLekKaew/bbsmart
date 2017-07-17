@@ -1,48 +1,1172 @@
-[{
-    subTitle = ข้ อความทดสอบจาก Developer team,
-    google.sent_time = 1499829466752,
-    additionalData = [{
-        "Value": "bbca59ce-dfa0-46cf-88e4-768adc88e7db",
-        "Key": "ID"
-    }, {
-        "Value": "CBI17PCM810013",
-        "Key": "jobID"
-    }, {
-        "Value": "charatroek_n",
-        "Key": "sender"
-    }, {
-        "Value": "vises_p,charatroek_n",
-        "Key": "messageTo"
-    }, {
-        "Value": "TEST",
-        "Key": "typeAction"
-    }, {
-        "Value": "TEST",
-        "Key": "type"
-    }, {
-        "Value": "BBSmart-Test 52",
-        "Key": "title"
-    }, {
-        "Value": "ทดสอบครับ",
-        "Key": "subject"
-    }, {
-        "Value": "ข้อความทดสอบจาก Developer team",
-        "Key": "subTitle"
-    }, {
-        "Value": "ทดสอบ ticker",
-        "Key": "ticker"
-    }, {
-        "Value": "CUSTOM",
-        "Key": "scope"
-    }, {
-        "Value": "vises_p,charatroek_n",
-        "Key": "longAlertSoundReceiver"
-    }, {
-        "Value": null,
-        "Key": "JobTypeID"
-    }],
-    google.message_id = 0: 1499829466760335 % 94 b862b1f9fd7ecd,
-    contentTitle = BBSmart - Test 52,
-    message = ทดสอบครั บ,
-    tickerText = ทดสอบ ticker
-}]
+{
+    "Result": {
+        "Value": "P",
+        "Description": "Success",
+        "ShowText": "Success",
+        "TransactionID": ""
+    },
+    "Data": [
+        {
+            "JobID": "KKN1707PCM00006",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-16T12:27:37",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00006",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-14T17:35:58",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00006",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-14T17:04:04",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "UDN1707PCM00005",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-13T15:30:25",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00004",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-12T14:56:46",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00003",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-12T14:56:46",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "NMA1707PEU00001",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-10T02:58:17",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00002",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-10T02:28:50",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        },
+        {
+            "JobID": "KKN1707PCM00001",
+            "SoID": "IM1317929",
+            "SoType": "Working at height  (Replace/ Repair)",
+            "SLName": "",
+            "SoChannel": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "FO"
+            },
+            "Kpi": 9,
+            "Plant": "A201",
+            "SapID": "35013773",
+            "JobType": {
+                "INX": 2,
+                "ID": "MCM",
+                "Name": "BTS-CM"
+            },
+            "JobStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "On Process"
+            },
+            "HandOverStatus": {
+                "INX": 2,
+                "ID": 2,
+                "Name": "approved"
+            },
+            "WorkflowPosition": {
+                "INX": 6,
+                "ID": 6,
+                "Name": "ผู้รับงานกำลังทำงาน"
+            },
+            "isUseVendorYN": "Y",
+            "VendorID": "0001125808",
+            "CustomerID": "2180017",
+            "MainFloc": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteA": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SiteB": {
+                "INX": 0,
+                "ID": "01-CSPB-0086",
+                "Name": "",
+                "PositionLatLng": {
+                    "Lat": 14.2002090734677,
+                    "Lng": 100.164543598178
+                }
+            },
+            "SubScList": [
+                "BK2"
+            ],
+            "OpenDt": "2017-07-09T19:29:06",
+            "DoneDt": null,
+            "Workcenter": "AYA",
+            "Otmcenter": "AAYA",
+            "SubSc": "AYA",
+            "AckUser": {
+                "ID": "prapat_s",
+                "NameTh": "ระพัฒน์ สาคริน",
+                "NameEn": "Prapat Sakarin",
+                "Icon": "/Images/Avartar/default-user.png"
+            },
+            "OpenedDuraton": "00:34 hr",
+            "OherJobIDMatchThisSoID": null,
+            "TotalStopClockMinute": 20,
+            "JobAckUserList": [
+                "charatroek_n"
+            ],
+            "JobFAT": {
+                "BBTecFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                },
+                "CustomerFAT": {
+                    "Requestation": {
+                        "Requester": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "RequestDt": null
+                    },
+                    "Inspection": {
+                        "Inspector": {
+                            "ID": "",
+                            "Name": ""
+                        },
+                        "InspectionDt": null,
+                        "InspectionResult": {
+                            "ID": 0,
+                            "Name": "Undefined"
+                        },
+                        "Remark": ""
+                    }
+                }
+            },
+            "IsOnStopPeriod": "N"
+        }
+    ],
+    "Type": "System.Collections.Generic.List`1[BBSmart.Api.App_Model.JobInfo+JobCard]"
+}
