@@ -1,14 +1,13 @@
 {
     "ProjectJobList": {
-        "Data": [
-            {
+        "Data": [{
                 "JobTypeCode": "M",
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "Transmission CM (RC)",
                 "NewJobTotal": 0,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM",
-                "EndPointURL":"http://103.40.138.150/BBSmartRc"
+                "EndPointURL": "http://103.40.138.150/BBSmartRc"
             },
             {
                 "JobTypeCode": "MCM",
@@ -17,7 +16,7 @@
                 "NewJobTotal": 12,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM",
-                "EndPointURL":"http://103.40.138.150/BBSmartRc"
+                "EndPointURL": "http://103.40.138.150/BBSmartRc"
             },
             {
                 "JobTypeCode": "PCM",
@@ -26,7 +25,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://103.40.138.150/BBsmartNet/Api2"
+                "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2"
             },
             {
                 "JobTypeCode": "PCM",
@@ -35,7 +34,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://103.40.138.150/BBSmartRc"
+                "EndPointURL": "http://103.40.138.150/BBSmartRc"
             },
             {
                 "JobTypeCode": "PCM",
@@ -44,7 +43,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://192.168.43.62/BBSmartNet/Api2"
+                "EndPointURL": "http://192.168.43.62/BBSmartNet/Api2"
             },
             {
                 "JobTypeCode": "PCM",
@@ -53,7 +52,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://192.168.1.25/BBSmartNet/Api2"
+                "EndPointURL": "http://192.168.1.25/BBSmartNet/Api2"
             },
             {
                 "JobTypeCode": "M",
@@ -62,7 +61,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM",
-                "EndPointURL":"http://103.40.138.150/BBSmart"
+                "EndPointURL": "http://103.40.138.150/BBSmart"
             },
             {
                 "JobTypeCode": "MCM",
@@ -71,7 +70,7 @@
                 "NewJobTotal": 12,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM",
-                "EndPointURL":"http://103.40.138.150/BBSmart"
+                "EndPointURL": "http://103.40.138.150/BBSmart"
             },
             {
                 "JobTypeCode": "PCM",
@@ -80,7 +79,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://103.40.138.150/BBSmart"
+                "EndPointURL": "http://103.40.138.150/BBSmart"
             }
         ]
     },
@@ -399,16 +398,32 @@
                 "WorkAction": {
                     "INX": 1,
                     "ID": "WIRE_OVER",
-                    "Name": "ลากคร่อม"
+                    "Name": "ลากคร่อม",
+                    "Template": [{
+                            "INX": 1,
+                            "ID": "C",
+                            "Name": "Enclosure"
+                        },
+                        {
+                            "INX": 2,
+                            "ID": "F",
+                            "Name": "Fiber"
+                        }, {
+                            "INX": 1,
+                            "ID": "C",
+                            "Name": "Enclosure"
+                        }
+                    ]
                 },
                 "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
                 "IsTempWork": "Y",
                 "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก",
-                "PlanDateList":[
-                    {"PlanDateFrom":"2017-07-04T18:01:01","PlanDateTo":"2017-07-05T18:01:01"}
-                ]
+                "PlanDateList": [{
+                    "PlanDateFrom": "2017-07-04T18:01:01",
+                    "PlanDateTo": "2017-07-05T18:01:01"
+                }]
             },
             {
                 "TaskINX": 2,
@@ -420,14 +435,19 @@
                 "WorkAction": {
                     "INX": 4,
                     "ID": "CORE_OP",
-                    "Name": "โยก Core"
+                    "Name": "โยก Core",
+                    "Template": [{
+                        "INX": 4,
+                        "ID": "S",
+                        "Name": "Site"
+                    }]
                 },
                 "WorkActionNote": "",
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
                 "IsTempWork": "N",
                 "Remark": "",
-                "PlanDateList":[]
+                "PlanDateList": []
             },
             {
                 "TaskINX": 3,
@@ -439,14 +459,19 @@
                 "WorkAction": {
                     "INX": 6,
                     "ID": "PLAN_NEXTFIX",
-                    "Name": "วางแผนกลับมาแก้ไข"
+                    "Name": "วางแผนกลับมาแก้ไข",
+                    "Template": [{
+                        "INX": 4,
+                        "ID": "FL",
+                        "Name": "Fiber Loss"
+                    }]
                 },
                 "WorkActionNote": "",
                 "StartTaskDate": "2017-07-04T18:01:01",
                 "FinishTaskDate": "2017-07-04T20:15:12",
                 "IsTempWork": "N",
                 "Remark": "",
-                "PlanDateList":[]
+                "PlanDateList": []
             }
         ]
     }],
@@ -517,67 +542,62 @@
         }
     ],
     "WorkActionList": [{
-        "INX": 1,
-        "ID": "WIRE_OVER",
-        "Name": "ลากคร่อม",
-        "Template":[
-            {
-                "INX":1,
-                "ID":"C",
-                "Name":"Enclosure"
-            },
-                        {
-                "INX":2,
-                "ID":"F",
-                "Name":"Fiber"
-            },            {
-                "INX":1,
-                "ID":"C",
-                "Name":"Enclosure"
-            }
-        ]
-    },
-    {
-        "INX": 1,
-        "ID": "LOOP_SPLICE",
-        "Name": "ปลด Loop + Splice",
-        "Template":[
-            {
-                "INX":3,
-                "ID":"L",
-                "Name":"Loop"
-            },
-                        {
-                "INX":1,
-                "ID":"C",
-                "Name":"Enclosure"
-            },            {
-                "INX":3,
-                "ID":"L",
-                "Name":"Loop"
-            }
-        ]
-    }, {
-        "INX": 4,
-        "ID": "CORE_OP",
-        "Name": "โยก Core",
-        "Template":[
-            {
-                "INX":4,
-                "ID":"S",
-                "Name":"Site"
-            }
-        ]
-    }, {
-        "INX": 6,
-        "ID": "PLAN_NEXTFIX",
-        "Name": "วางแผนกลับมาแก้ไข",
-        "Template":[
-            {
-                "INX":4,
-                "ID":"FL",
-                "Name":"Fiber Loss"
-            }
-        ]
-    }]
+            "INX": 1,
+            "ID": "WIRE_OVER",
+            "Name": "ลากคร่อม",
+            "Template": [{
+                    "INX": 1,
+                    "ID": "C",
+                    "Name": "Enclosure"
+                },
+                {
+                    "INX": 2,
+                    "ID": "F",
+                    "Name": "Fiber"
+                }, {
+                    "INX": 1,
+                    "ID": "C",
+                    "Name": "Enclosure"
+                }
+            ]
+        },
+        {
+            "INX": 1,
+            "ID": "LOOP_SPLICE",
+            "Name": "ปลด Loop + Splice",
+            "Template": [{
+                    "INX": 3,
+                    "ID": "L",
+                    "Name": "Loop"
+                },
+                {
+                    "INX": 1,
+                    "ID": "C",
+                    "Name": "Enclosure"
+                }, {
+                    "INX": 3,
+                    "ID": "L",
+                    "Name": "Loop"
+                }
+            ]
+        }, {
+            "INX": 4,
+            "ID": "CORE_OP",
+            "Name": "โยก Core",
+            "Template": [{
+                "INX": 4,
+                "ID": "S",
+                "Name": "Site"
+            }]
+        }, {
+            "INX": 6,
+            "ID": "PLAN_NEXTFIX",
+            "Name": "วางแผนกลับมาแก้ไข",
+            "Template": [{
+                "INX": 4,
+                "ID": "FL",
+                "Name": "Fiber Loss"
+            }]
+        }
+    ]
 }
