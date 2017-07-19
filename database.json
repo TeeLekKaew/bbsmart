@@ -1,59 +1,6 @@
 {
     "ProjectJobList": {
-        "Data": [{
-                "JobTypeCode": "M",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "Transmission CM (RC)",
-                "NewJobTotal": 0,
-                "MyJobTotal": 0,
-                "EndPoint": "OTM",
-                "EndPointURL": "http://103.40.138.150/BBSmartRc"
-            },
-            {
-                "JobTypeCode": "MCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "BTS CM (RC)",
-                "NewJobTotal": 12,
-                "MyJobTotal": 0,
-                "EndPoint": "OTM",
-                "EndPointURL": "http://103.40.138.150/BBSmartRc"
-            },
-            {
-                "JobTypeCode": "PCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM (RC)",
-                "NewJobTotal": 0,
-                "MyJobTotal": 10,
-                "EndPoint": "JMG",
-                "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2"
-            },
-            {
-                "JobTypeCode": "PCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM (DEMO)",
-                "NewJobTotal": 0,
-                "MyJobTotal": 10,
-                "EndPoint": "JMG",
-                "EndPointURL": "http://103.40.138.150/BBSmartRc"
-            },
-            {
-                "JobTypeCode": "PCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM (T1)",
-                "NewJobTotal": 0,
-                "MyJobTotal": 10,
-                "EndPoint": "JMG",
-                "EndPointURL": "http://192.168.43.62/BBSmartNet/Api2"
-            },
-            {
-                "JobTypeCode": "PCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM (T2)",
-                "NewJobTotal": 0,
-                "MyJobTotal": 10,
-                "EndPoint": "JMG",
-                "EndPointURL": "http://192.168.1.25/BBSmartNet/Api2"
-            },
+        "Data": [
             {
                 "JobTypeCode": "M",
                 "JobTypeCodeName": "MTN",
@@ -67,7 +14,7 @@
                 "JobTypeCode": "MCM",
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "BTS CM",
-                "NewJobTotal": 12,
+                "NewJobTotal": 0,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM",
                 "EndPointURL": "http://103.40.138.150/BBSmart"
@@ -77,9 +24,9 @@
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "PEA CM",
                 "NewJobTotal": 0,
-                "MyJobTotal": 10,
+                "MyJobTotal": 0,
                 "EndPoint": "JMG",
-                "EndPointURL": "http://103.40.138.150/BBSmart"
+                "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2"
             }
         ]
     },
@@ -399,19 +346,22 @@
                     "INX": 1,
                     "ID": "WIRE_OVER",
                     "Name": "ลากคร่อม",
-                    "Template": [{
-                            "INX": 1,
-                            "ID": "C",
-                            "Name": "Enclosure"
+                    "SubStanceList": [{
+                            "INX": 3,
+                            "ID": "CLOSURE",
+                            "Name": "EnClosure",
+                            "TaskOnSubstanceINX": 1545
                         },
                         {
-                            "INX": 2,
-                            "ID": "F",
-                            "Name": "Fiber"
-                        }, {
                             "INX": 1,
-                            "ID": "C",
-                            "Name": "Enclosure"
+                            "ID": "FIBER",
+                            "Name": "Fiber Optic",
+                            "TaskOnSubstanceINX": 1546
+                        }, {
+                            "INX": 3,
+                            "ID": "CLOSURE",
+                            "Name": "EnClosure",
+                            "TaskOnSubstanceINX": null
                         }
                     ]
                 },
@@ -436,10 +386,11 @@
                     "INX": 4,
                     "ID": "CORE_OP",
                     "Name": "โยก Core",
-                    "Template": [{
-                        "INX": 4,
-                        "ID": "S",
-                        "Name": "Site"
+                    "SubStanceList": [{
+                        "INX": 6,
+                        "ID": "CORE_SW_BOARD",
+                        "Name": "Core switch board",
+                        "TaskOnSubstanceINX": 1941
                     }]
                 },
                 "WorkActionNote": "",
@@ -460,10 +411,11 @@
                     "INX": 6,
                     "ID": "PLAN_NEXTFIX",
                     "Name": "วางแผนกลับมาแก้ไข",
-                    "Template": [{
+                    "SubStanceList": [{
                         "INX": 4,
                         "ID": "FL",
-                        "Name": "Fiber Loss"
+                        "Name": "Fiber Loss",
+                        "TaskOnSubstanceINX": null
                     }]
                 },
                 "WorkActionNote": "",
@@ -545,38 +497,38 @@
             "INX": 1,
             "ID": "WIRE_OVER",
             "Name": "ลากคร่อม",
-            "Template": [{
-                    "INX": 1,
-                    "ID": "C",
-                    "Name": "Enclosure"
+            "SubStanceList": [{
+                    "INX": 3,
+                    "ID": "CLOSURE",
+                    "Name": "EnClosure"
                 },
                 {
-                    "INX": 2,
-                    "ID": "F",
-                    "Name": "Fiber"
-                }, {
                     "INX": 1,
-                    "ID": "C",
-                    "Name": "Enclosure"
+                    "ID": "FIBER",
+                    "Name": "Fiber Optic"
+                }, {
+                    "INX": 3,
+                    "ID": "CLOSURE",
+                    "Name": "EnClosure"
                 }
             ]
         },
         {
-            "INX": 1,
+            "INX": 2,
             "ID": "LOOP_SPLICE",
             "Name": "ปลด Loop + Splice",
-            "Template": [{
-                    "INX": 3,
-                    "ID": "L",
+            "SubStanceList": [{
+                    "INX": 5,
+                    "ID": "LOOP",
                     "Name": "Loop"
                 },
                 {
-                    "INX": 1,
-                    "ID": "C",
-                    "Name": "Enclosure"
-                }, {
                     "INX": 3,
-                    "ID": "L",
+                    "ID": "CLOSURE",
+                    "Name": "EnClosure"
+                }, {
+                    "INX": 5,
+                    "ID": "LOOP",
                     "Name": "Loop"
                 }
             ]
@@ -584,18 +536,18 @@
             "INX": 4,
             "ID": "CORE_OP",
             "Name": "โยก Core",
-            "Template": [{
-                "INX": 4,
-                "ID": "S",
-                "Name": "Site"
+            "SubStanceList": [{
+                "INX": 6,
+                "ID": "CORE_SW_BOARD",
+                "Name": "Core switch board"
             }]
         }, {
             "INX": 6,
             "ID": "PLAN_NEXTFIX",
             "Name": "วางแผนกลับมาแก้ไข",
-            "Template": [{
+            "SubStanceList": [{
                 "INX": 4,
-                "ID": "FL",
+                "ID": "FIBER_LOSS",
                 "Name": "Fiber Loss"
             }]
         }
