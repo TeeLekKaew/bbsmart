@@ -414,7 +414,7 @@
                             "INX": 3,
                             "ID": "CLOSURE",
                             "Name": "EnClosure",
-                            "TaskOnSubstanceINX": null
+                            "TaskOnSubstanceINX": -1
                         }
                     ]
                 },
@@ -468,7 +468,7 @@
                         "INX": 4,
                         "ID": "FL",
                         "Name": "Fiber Loss",
-                        "TaskOnSubstanceINX": null
+                        "TaskOnSubstanceINX": -1
                     }]
                 },
                 "WorkActionNote": "",
