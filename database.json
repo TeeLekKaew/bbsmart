@@ -30,16 +30,6 @@
                 "EndPoint": "JMG",
                 "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2",
                 "Avatar":"http://103.40.138.150/BBSmartRc/FileLink/avatar/pea1.png"
-            },
-            {
-                "JobTypeCode": "PPM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA RPM",
-                "NewJobTotal": 0,
-                "MyJobTotal": 0,
-                "EndPoint": "JMG",
-                "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2",
-                "Avatar":"http://103.40.138.150/BBSmartRc/FileLink/avatar/pea1.png"
             }
         ]
     },
