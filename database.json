@@ -10,7 +10,7 @@
                 "EndPoint": "OTM",
                 "EndPointURL": "http://103.40.138.150/BBSmart",
                 "EndPointJobManagementURL": "http://103.40.138.150/JobManagement",
-                "Avatar":"http://103.40.138.150/BBSmartRc/FileLink/avatar/dtac1.png"
+                "Avatar": "http://103.40.138.150/BBSmartRc/FileLink/avatar/dtac1.png"
             },
             {
                 "JobTypeCode": "MCM",
@@ -21,7 +21,7 @@
                 "EndPoint": "OTM",
                 "EndPointURL": "http://103.40.138.150/BBSmart",
                 "EndPointJobManagementURL": "http://103.40.138.150/JobManagement",
-                "Avatar":"http://103.40.138.150/BBSmartRc/FileLink/avatar/dtac1.png"
+                "Avatar": "http://103.40.138.150/BBSmartRc/FileLink/avatar/dtac1.png"
             },
             {
                 "JobTypeCode": "PCM",
@@ -32,13 +32,15 @@
                 "EndPoint": "JMG",
                 "EndPointURL": "http://103.40.138.150/BBsmartNet/Api2",
                 "EndPointJobManagementURL": "http://103.40.138.150/JobManagement",
-                "Avatar":"http://103.40.138.150/BBSmartRc/FileLink/avatar/pea1.png"
+                "Avatar": "http://103.40.138.150/BBSmartRc/FileLink/avatar/pea1.png"
             }
         ]
     },
-    "JobWithFlocInfo": [{
+    "JobWithFlocInfo": [
+        {
             "JobINX": 1,
-            "FlocList": [{
+            "FlocList": [
+                {
                     "FlocItemNo": 1,
                     "JobWithFlocINX": 1,
                     "Floc": {
@@ -98,36 +100,39 @@
         {
             "id": 2,
             "JobINX": 2,
-            "FlocList": [{
-                "FlocItemNo": 1,
-                "JobWithFlocINX": 15,
-                "Floc": {
-                    "FlocINX": 3,
-                    "FlocID": "PEA-2-AAA-BBB-0001-002",
-                    "FlocName": "AAA-BBB",
-                    "FlocTypeINX": 2,
-                    "Endpoint1Floc": {
-                        "FlocINX": 1,
-                        "FlocID": "PEA-1-AAA-0001",
-                        "FlocName": "AAA",
-                        "FlocTypeINX": 1
+            "FlocList": [
+                {
+                    "FlocItemNo": 1,
+                    "JobWithFlocINX": 15,
+                    "Floc": {
+                        "FlocINX": 3,
+                        "FlocID": "PEA-2-AAA-BBB-0001-002",
+                        "FlocName": "AAA-BBB",
+                        "FlocTypeINX": 2,
+                        "Endpoint1Floc": {
+                            "FlocINX": 1,
+                            "FlocID": "PEA-1-AAA-0001",
+                            "FlocName": "AAA",
+                            "FlocTypeINX": 1
+                        },
+                        "Endpoint2Floc": {
+                            "FlocINX": 2,
+                            "FlocID": "PEA-1-BBB-0002",
+                            "FlocName": "BBB",
+                            "FlocTypeINX": 1
+                        },
+                        "MatTypeName": "ADSS",
+                        "MatKindName": "G.652D",
+                        "CoreOrPairQty": 24,
+                        "MeasuredLengthInMetre": 8700
                     },
-                    "Endpoint2Floc": {
-                        "FlocINX": 2,
-                        "FlocID": "PEA-1-BBB-0002",
-                        "FlocName": "BBB",
-                        "FlocTypeINX": 1
-                    },
-                    "MatTypeName": "ADSS",
-                    "MatKindName": "G.652D",
-                    "CoreOrPairQty": 24,
-                    "MeasuredLengthInMetre": 8700
-                },
-                "Remark": "เส้นทางที 1"
-            }]
+                    "Remark": "เส้นทางที 1"
+                }
+            ]
         }
     ],
-    "FlocList": [{
+    "FlocList": [
+        {
             "id": 1,
             "FlocINX": 1,
             "FlocID": "PEA-2-NE1-0001-0002",
@@ -220,11 +225,13 @@
             "MeasuredLengthInMetre": 8700
         }
     ],
-    "JobWithActionPoint": [{
+    "JobWithActionPoint": [
+        {
             "id": 1,
             "JobINX": 1,
             "JobWithFlocINX": 1,
-            "JobWithActionTakenPointList": [{
+            "JobWithActionTakenPointList": [
+                {
                     "JobWithActionTakenPointINX": 1,
                     "PointNo": 1,
                     "Caption": "จุดที่ 1",
@@ -308,132 +315,146 @@
             "id": 2,
             "JobINX": 1019,
             "JobWithFlocINX": 2,
-            "JobWithActionTakenPointList": [{
-                "JobWithActionTakenPointINX": 4,
-                "PointNo": 1,
-                "Caption": "จุดที่ 1",
-                "GeoLat": 13.8511753,
-                "GeoLon": 101.5621727,
-                "OnFieldDate": "2017-07-14T17:00:00",
-                "ProblemOccurCase": {
-                    "INX": "1",
-                    "ID": "1555",
-                    "Name": "สัญญา Loss"
-                },
-                "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site AAA",
-                "ProblemCause": {
-                    "INX": "554",
-                    "ID": "C4555",
-                    "Name": "Core Crack"
-                },
-                "CoProblemCause": {
-                    "INX": "555554",
-                    "ID": "C457777755",
-                    "Name": "กระรอกกัด"
-                },
-                "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
-                "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
-            }]
+            "JobWithActionTakenPointList": [
+                {
+                    "JobWithActionTakenPointINX": 4,
+                    "PointNo": 1,
+                    "Caption": "จุดที่ 1",
+                    "GeoLat": 13.8511753,
+                    "GeoLon": 101.5621727,
+                    "OnFieldDate": "2017-07-14T17:00:00",
+                    "ProblemOccurCase": {
+                        "INX": "1",
+                        "ID": "1555",
+                        "Name": "สัญญา Loss"
+                    },
+                    "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site AAA",
+                    "ProblemCause": {
+                        "INX": "554",
+                        "ID": "C4555",
+                        "Name": "Core Crack"
+                    },
+                    "CoProblemCause": {
+                        "INX": "555554",
+                        "ID": "C457777755",
+                        "Name": "กระรอกกัด"
+                    },
+                    "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
+                    "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
+                }
+            ]
         }
     ],
-    "JobTaskList": [{
-        "id": 1,
-        "JobINX": 1,
-        "JobWithFlocINX": 1,
-        "JobWithActionTakenPointINX": 1,
-        "TaskList": [{
-                "TaskINX": 1,
-                "SiteFloc": {
-                    "INX": 1,
-                    "ID": "PEA-1-N3-0001",
-                    "Name": "สฟฟ.เชียงคาน"
-                },
-                "WorkAction": {
-                    "INX": 1,
-                    "ID": "WIRE_OVER",
-                    "Name": "ลากคร่อม",
-                    "SubstanceTypeList": [{
-                            "INX": 3,
-                            "ID": "CLOSURE",
-                            "Name": "EnClosure",
-                            "TaskOnSubstanceINX": 1545
-                        },
+    "JobTaskList": [
+        {
+            "id": 1,
+            "JobINX": 1,
+            "JobWithFlocINX": 1,
+            "JobWithActionTakenPointINX": 1,
+            "TaskList": [
+                {
+                    "TaskINX": 1,
+                    "SiteFloc": {
+                        "INX": 1,
+                        "ID": "PEA-1-N3-0001",
+                        "Name": "สฟฟ.เชียงคาน"
+                    },
+                    "WorkAction": {
+                        "INX": 1,
+                        "ID": "WIRE_OVER",
+                        "Name": "ลากคร่อม",
+                        "SubstanceTypeList": [
+                            {
+                                "INX": 3,
+                                "ID": "CLOSURE",
+                                "Name": "EnClosure",
+                                "TaskOnSubstanceINX": 1545
+                            },
+                            {
+                                "INX": 1,
+                                "ID": "FIBER",
+                                "Name": "Fiber Optic",
+                                "TaskOnSubstanceINX": 1546
+                            },
+                            {
+                                "INX": 3,
+                                "ID": "CLOSURE",
+                                "Name": "EnClosure",
+                                "TaskOnSubstanceINX": -1
+                            }
+                        ]
+                    },
+                    "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
+                    "StartTaskDate": "2017-07-04T18:01:01",
+                    "FinishTaskDate": "2017-07-04T20:15:12",
+                    "IsTempWork": "Y",
+                    "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก",
+                    "PlanDateList": [
                         {
-                            "INX": 1,
-                            "ID": "FIBER",
-                            "Name": "Fiber Optic",
-                            "TaskOnSubstanceINX": 1546
-                        }, {
-                            "INX": 3,
-                            "ID": "CLOSURE",
-                            "Name": "EnClosure",
-                            "TaskOnSubstanceINX": -1
+                            "PlanDateFrom": "2017-07-04T18:01:01",
+                            "PlanDateTo": "2017-07-05T18:01:01"
                         }
                     ]
                 },
-                "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
-                "StartTaskDate": "2017-07-04T18:01:01",
-                "FinishTaskDate": "2017-07-04T20:15:12",
-                "IsTempWork": "Y",
-                "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก",
-                "PlanDateList": [{
-                    "PlanDateFrom": "2017-07-04T18:01:01",
-                    "PlanDateTo": "2017-07-05T18:01:01"
-                }]
-            },
-            {
-                "TaskINX": 2,
-                "SiteFloc": {
-                    "INX": 2,
-                    "ID": "PEA-1-N3-0001",
-                    "Name": "สฟฟ.เชียงคาน"
-                },
-                "WorkAction": {
-                    "INX": 4,
-                    "ID": "CORE_OP",
-                    "Name": "โยก Core",
-                    "SubstanceTypeList": [{
-                        "INX": 6,
-                        "ID": "CORE_SW_BOARD",
-                        "Name": "Core switch board",
-                        "TaskOnSubstanceINX": 1941
-                    }]
-                },
-                "WorkActionNote": "",
-                "StartTaskDate": "2017-07-04T18:01:01",
-                "FinishTaskDate": "2017-07-04T20:15:12",
-                "IsTempWork": "N",
-                "Remark": "",
-                "PlanDateList": []
-            },
-            {
-                "TaskINX": 3,
-                "SiteFloc": {
-                    "INX": 1,
-                    "ID": "PEA-1-N3-0001",
-                    "Name": "สฟฟ.เชียงคาน"
-                },
-                "WorkAction": {
-                    "INX": 6,
-                    "ID": "PLAN_NEXTFIX",
-                    "Name": "วางแผนกลับมาแก้ไข",
-                    "SubstanceTypeList": [{
+                {
+                    "TaskINX": 2,
+                    "SiteFloc": {
+                        "INX": 2,
+                        "ID": "PEA-1-N3-0001",
+                        "Name": "สฟฟ.เชียงคาน"
+                    },
+                    "WorkAction": {
                         "INX": 4,
-                        "ID": "FL",
-                        "Name": "Fiber Loss",
-                        "TaskOnSubstanceINX": -1
-                    }]
+                        "ID": "CORE_OP",
+                        "Name": "โยก Core",
+                        "SubstanceTypeList": [
+                            {
+                                "INX": 6,
+                                "ID": "CORE_SW_BOARD",
+                                "Name": "Core switch board",
+                                "TaskOnSubstanceINX": 1941
+                            }
+                        ]
+                    },
+                    "WorkActionNote": "",
+                    "StartTaskDate": "2017-07-04T18:01:01",
+                    "FinishTaskDate": "2017-07-04T20:15:12",
+                    "IsTempWork": "N",
+                    "Remark": "",
+                    "PlanDateList": []
                 },
-                "WorkActionNote": "",
-                "StartTaskDate": "2017-07-04T18:01:01",
-                "FinishTaskDate": "2017-07-04T20:15:12",
-                "IsTempWork": "N",
-                "Remark": "",
-                "PlanDateList": []
-            }
-        ]
-    }],
-    "ProblemCause": [{
+                {
+                    "TaskINX": 3,
+                    "SiteFloc": {
+                        "INX": 1,
+                        "ID": "PEA-1-N3-0001",
+                        "Name": "สฟฟ.เชียงคาน"
+                    },
+                    "WorkAction": {
+                        "INX": 6,
+                        "ID": "PLAN_NEXTFIX",
+                        "Name": "วางแผนกลับมาแก้ไข",
+                        "SubstanceTypeList": [
+                            {
+                                "INX": 4,
+                                "ID": "FL",
+                                "Name": "Fiber Loss",
+                                "TaskOnSubstanceINX": -1
+                            }
+                        ]
+                    },
+                    "WorkActionNote": "",
+                    "StartTaskDate": "2017-07-04T18:01:01",
+                    "FinishTaskDate": "2017-07-04T20:15:12",
+                    "IsTempWork": "N",
+                    "Remark": "",
+                    "PlanDateList": []
+                }
+            ]
+        }
+    ],
+    "ProblemCause": [
+        {
             "INX": "555554",
             "ID": "C457777755",
             "Name": "กระรอกกัด"
@@ -499,11 +520,13 @@
             "Name": "สัญญา Loss 11"
         }
     ],
-    "WorkActionList": [{
+    "WorkActionList": [
+        {
             "INX": 1,
             "ID": "WIRE_OVER",
             "Name": "ลากคร่อม",
-            "SubstanceTypeList": [{
+            "SubstanceTypeList": [
+                {
                     "INX": 3,
                     "ID": "CLOSURE",
                     "Name": "EnClosure"
@@ -512,7 +535,8 @@
                     "INX": 1,
                     "ID": "FIBER",
                     "Name": "Fiber Optic"
-                }, {
+                },
+                {
                     "INX": 3,
                     "ID": "CLOSURE",
                     "Name": "EnClosure"
@@ -523,7 +547,8 @@
             "INX": 2,
             "ID": "LOOP_SPLICE",
             "Name": "ปลด Loop + Splice",
-            "SubstanceTypeList": [{
+            "SubstanceTypeList": [
+                {
                     "INX": 5,
                     "ID": "LOOP",
                     "Name": "Loop"
@@ -532,76 +557,85 @@
                     "INX": 3,
                     "ID": "CLOSURE",
                     "Name": "EnClosure"
-                }, {
+                },
+                {
                     "INX": 5,
                     "ID": "LOOP",
                     "Name": "Loop"
                 }
             ]
-        }, {
+        },
+        {
             "INX": 4,
             "ID": "CORE_OP",
             "Name": "โยก Core",
-            "SubstanceTypeList": [{
-                "INX": 6,
-                "ID": "CORE_SW_BOARD",
-                "Name": "Core switch board"
-            }]
-        }, {
+            "SubstanceTypeList": [
+                {
+                    "INX": 6,
+                    "ID": "CORE_SW_BOARD",
+                    "Name": "Core switch board"
+                }
+            ]
+        },
+        {
             "INX": 6,
             "ID": "PLAN_NEXTFIX",
             "Name": "วางแผนกลับมาแก้ไข",
-            "SubstanceTypeList": [{
-                "INX": 4,
-                "ID": "FIBER_LOSS",
-                "Name": "Fiber Loss"
-            }]
+            "SubstanceTypeList": [
+                {
+                    "INX": 4,
+                    "ID": "FIBER_LOSS",
+                    "Name": "Fiber Loss"
+                }
+            ]
         }
     ],
-    "CaptionTemplateList":[
-        {
-            "Type":"1",
-            "Caption":"ภาพก่อนดำเนินการ"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพหลังดำเนินการ"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพหน้าสถานี หรือ กฟภ. ที่เข้าตรวจซ่อมเคเบิลฯ"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพถ่ายสภาพงานที่เกิดเหตุ"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพหน้าสถานที่เกิดเหตุ"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพถ่ายสภาพงาน (บริเวณรอบๆ)"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพติดตั้งหัวต่อที่"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพถ่ายที่ mark length หัวต่อที่"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพถ่ายบริเวณแนวสายที่ตรวจซ่อม"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพเหตุสุดวิสัย"
-        },
-        {
-            "Type":"1",
-            "Caption":"ภาพถ่ายผลการทดสอบด้วย OTDR"
-        }
-    ]
+    "CaptionTemplate": {
+        "CaptionTemplateList": [
+            {
+                "Type": "1",
+                "Caption": "ภาพก่อนดำเนินการ"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพหลังดำเนินการ"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพหน้าสถานี หรือ กฟภ. ที่เข้าตรวจซ่อมเคเบิลฯ"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพถ่ายสภาพงานที่เกิดเหตุ"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพหน้าสถานที่เกิดเหตุ"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพถ่ายสภาพงาน (บริเวณรอบๆ)"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพติดตั้งหัวต่อที่"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพถ่ายที่ mark length หัวต่อที่"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพถ่ายบริเวณแนวสายที่ตรวจซ่อม"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพเหตุสุดวิสัย"
+            },
+            {
+                "Type": "1",
+                "Caption": "ภาพถ่ายผลการทดสอบด้วย OTDR"
+            }
+        ]
+    }
 }
