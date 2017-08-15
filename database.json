@@ -594,6 +594,9 @@
         "FileCaptionList": [
             {
                 "Type": "1",
+                "Caption": "..."
+            },{
+                "Type": "1",
                 "Caption": "ภาพก่อนดำเนินการ"
             },
             {
